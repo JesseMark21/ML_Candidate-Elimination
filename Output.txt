@@ -1,0 +1,25 @@
+Target Concept: <Japan, ?, ?, ?, Economy>
+specific: <0, 0, 0, 0, 0>
+generic: <?, ?, ?, ?, ?>
+
+Training Example 1: <Japan, Honda, Blue, 1980, Economy> Type: Positive
+specific: <Japan, Honda, Blue, 1980, Economy>
+generic: <?, ?, ?, ?, ?>
+
+Training Example 2: <Japan, Toyota, Green, 1970, Sports> Type: Negative
+specific: <Japan, Honda, Blue, 1980, Economy>
+generic: <?, ?, ?, 1980, ?>, <?, ?, ?, ?, Economy>, <?, ?, Blue, ?, ?>, <?, Honda, ?, ?, ?>
+
+Training Example 3: <Japan, Toyota, Blue, 1990, Economy> Type: Positive
+specific: <Japan, ?, Blue, ?, Economy>
+generic: <?, ?, ?, ?, Economy>, <?, ?, Blue, ?, ?>
+
+Training Example 4: <USA, Chrysler, Red, 1980, Economy> Type: Negative
+specific: <Japan, ?, Blue, ?, Economy>
+generic: <?, ?, ?, ?, Economy>, <?, ?, Blue, ?, ?>, <Japan, ?, ?, ?, ?>
+
+Training Example 5: <Japan, Honda, White, 1980, Economy> Type: Positive
+specific: <Japan, ?, ?, ?, Economy>
+generic: <Japan, ?, ?, ?, Economy>
+
+Q2: 5
